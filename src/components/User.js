@@ -5,7 +5,8 @@ export const UserContext = createContext();
 const User = (props) => {
     const [user, setUser] = useState([
     {
-        name:'asma'
+        name:'Nimra Ahmed',
+        book: 'yaram'
     }
     ]);
     console.log(props.children)

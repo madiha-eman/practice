@@ -8,7 +8,9 @@ const UserDetail = () => {
         <div>
             <ul>
             {user.map((item)=>( 
-                <li> {item.name}</li>
+                <li> Author:{item.name},<br/>
+                <span>Book:{item.book}</span></li>
+                
                
         )
         )}
